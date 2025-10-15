@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# Model files (large files )
+*.bin
+*.pth
+*.ckpt
+*.safetensors
+lora_fine_tuned_model/
+model_checkpoints/
+*.pt
+
+# Dataset files (too large for GitHub)
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.bmp
+invoice_dataset/
+new_invoices_dataset/
+large_scale_invoice_dataset/
+test_invoices/
+
+# Sensitive data
+feedback_log.csv
+feedback_dataset.json
+*.encrypted
+security_audit.log
+ground_truth.json
+ground_truth_template.json
+
+# Training outputs
+training_state.json
+model_metrics.json
+model_versions.json
+model_registry.encrypted
+evaluation_report_*.txt
+dataset_summary.json
+
+# Visualization outputs
+attention_explanation_*.png
+lime_explanation_*.png
+*.png
+*.svg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# API keys and secrets
+.env
+*.key
+credentials.json
